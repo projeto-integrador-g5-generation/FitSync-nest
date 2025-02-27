@@ -16,7 +16,6 @@ import { CategoriaModule } from './categoria/categoria.module';
       useClass: ProdService,
       imports: [ConfigModule],
     }),
-    ,
     CategoriaModule,
     ExercicioModule,
     UsuarioModule,
